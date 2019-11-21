@@ -1,0 +1,39 @@
+{
+  "name": "rock-paper-scissors-nodejs",
+  "version": "1.0.0",
+  "description": "Rock, Paper, Scissors (Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "mocha test",
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "jscpd": "jscpd . --ignore \"**/node_modules,**/coverage\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stayfi/rock-paper-scissors-nodejs.git"
+  },
+  "keywords": [
+    "node.js",
+    "rock",
+    "paper",
+    "scissors"
+  ],
+  "author": "Stayfi B.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stayfi/rock-paper-scissors-nodejs/issues"
+  },
+  "homepage": "https://github.com/Stayfi/rock-paper-scissors-nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jscpd": "^2.0.16",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  }
+}

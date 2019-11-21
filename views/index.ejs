@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <title>Rock, Paper, Scissors & Lizard, Spock</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"><%= gameTitle %></h1>
+      <p class="lead">Play at this game versus computer or let it play alone.</p>
+      <p>&#x2022; Click on one of "Player 1 choice" buttons to play versus computer.</p>
+      <p>&#x2022; Click on "Computer versus Computer" button to let computer play alone and get the winner.</p>
+      <br />
+      <p><a id="switch-game" class="btn btn-primary" href="/<%= switchGameRoute %>"
+          role="button"><%= switchGameText %></a></p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-5 text-center">
+        <h4>Player 1 choice</h4>
+      </div>
+      <div class="col-5 text-center">
+        <h4>Computer choice</h4>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-5 text-center">
+        <div class="row">
+          <% possibleChoices.forEach(function(key) { %>
+          <div class="col-12 p-3">
+            <button type="button" class="btn btn-primary play-game" data-game-action="<%=key%>" aria-label="Left Align">
+              <span class="fa fa-hand-<%=key.toLowerCase()%>-o fa-lg" aria-hidden="true">&nbsp;<%=key%></span>
+            </button>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+      <div class="col-5 text-center">
+        <div class="row">
+          <% possibleChoices.forEach(function(key) { %>
+          <div class="col-12 p-3">
+            <button type="button" class="btn btn-secondary cpu-game" data-game-action="<%=key%>" aria-label="Left Align"
+              disabled>
+              <span class="fa fa-hand-<%=key.toLowerCase()%>-o fa-lg" aria-hidden="true">&nbsp;<%=key%></span>
+            </button>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 text-center">Total</div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-4 text-right" data-player="1" data-total="0">0</div>
+      <div class="col-4 text-center" data-player="0" data-total="0">0</div>
+      <div class="col-4 text-left" data-player="2" data-total="0">0</div>
+    </div>
+    <div class="row p-3">
+      <div class="col-4"></div>
+      <div class="col-4 text-center">
+        <button type="button" class="btn btn-primary play-cpu-vs-cpu" aria-label="Left Align">
+          <span class="fa fa-desktop fa-lg" aria-hidden="true"></span>
+          &nbsp;&nbsp;Computer vs Computer&nbsp;&nbsp;
+          <span class="fa fa-desktop fa-lg" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row p-3">
+      <div class="col-4"></div>
+      <div class="col-4 text-center">Legend :&nbsp;
+        <button type="button" class="btn btn-primary" aria-label="Left Align" disabled>Winner</button>
+        <button type="button" class="btn btn-warning" aria-label="Left Align" disabled>Draw</button>
+        <button type="button" class="btn btn-danger" aria-label="Left Align" disabled>Loser</button>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>

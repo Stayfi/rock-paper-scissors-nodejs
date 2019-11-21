@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.nyc_output": true,
+        "**/coverage": true
+    },
+    "editor.wordWrapColumn": 100
+}
