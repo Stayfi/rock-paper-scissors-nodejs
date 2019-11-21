@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors & Lizard, Spock (Node.js)
 
-version: 'v1.0.2'
+version: 'v1.0.3'
 
 <a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
 <img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/master.svg?style=flat-square&label=master" />
