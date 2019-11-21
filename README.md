@@ -2,6 +2,9 @@
 
 version: 'v1.0.0'
 
+<a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
+<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs.svg?style=flat-square&label=master" />
+</a>
 ## Description
 
 For an interview, i was asked to dev this game with thoses users story:
@@ -65,7 +68,7 @@ Open your browser to : http://localhost:3000
     $ npm run test
 ```
 
-![Test results](img/test_result.png)
+![Test results](https://github.com/Stayfi/rock-paper-scissors-nodejs/raw/master/img/test_result.png)
 
 ### Running coverage
 
@@ -73,7 +76,7 @@ Open your browser to : http://localhost:3000
     $ npm run coverage
 ```
 
-![Coverage results](img/coverage_result.png)
+![Coverage results](https://github.com/Stayfi/rock-paper-scissors-nodejs/raw/master/img/coverage_result.png)
 
 ### Running copy/paste detection
 
@@ -81,4 +84,4 @@ Open your browser to : http://localhost:3000
     $ npm run jscpd
 ```
 
-![Jscpd results](img/Jscpd_result.png)
+![Jscpd results](https://github.com/Stayfi/rock-paper-scissors-nodejs/raw/master/img/jscpd_result.png)
