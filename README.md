@@ -1,10 +1,10 @@
 # Rock, Paper, Scissors & Lizard, Spock (Node.js)
 
-version: 'v1.0.4'
+version: 'v1.0.5'
 
 <a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
 <img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/master.svg?style=flat-square&label=master" />
-</a>
+</a> 
 <a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
 <img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/develop.svg?style=flat-square&label=develop" />
 </a>
@@ -31,12 +31,12 @@ For an interview, i was asked to dev this game with thoses users story:
 
   Technical Constraints:
 
-  - Doesn't neecessarilu need a flashy GUI (can be simple)
+  - Doesn't necessarly need a flashy GUI (can be simple)
   - Use <s>PHP</s> _(Scala or Javascript)_
   - Libs / external modules should only be used for tests
   - Using best in industry agile engineering practices
 
-Best if we use TDD, code cogerage, copy and paste detection, designs (DDD, or design patterns).
+Best if we use TDD, code coverage, copy and paste detection, designs (DDD, or design patterns).
 
 So, i tried to use my "code-sens" to doing my best in less than one day, starting from scratch.
 
@@ -47,12 +47,12 @@ You will find here, an example of TDD, with a lot of tests.
 ### Clone the project in your workspace
 
 ```bash
-    $ git clone https://github.com/Stayfi/Winnr.git
+    $ git clone https://github.com/Stayfi/rock-paper-scissors-nodejs.git
 ```
 
 ### install dependencies
 
-Go to the proeject directory and do
+Go to the project directory and do
 
 ```bash
     $ npm install
