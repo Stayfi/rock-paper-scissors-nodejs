@@ -3,7 +3,10 @@
 version: 'v1.0.0'
 
 <a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
-<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs.svg?style=flat-square&label=master" />
+<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/master.svg?style=flat-square&label=master" />
+</a>
+<a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
+<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/develop.svg?style=flat-square&label=develop" />
 </a>
 
 ## Description
