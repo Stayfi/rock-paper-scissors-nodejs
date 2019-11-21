@@ -1,6 +1,6 @@
 {
   "name": "rock-paper-scissors-nodejs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Rock, Paper, Scissors (Node.js)",
   "main": "index.js",
   "scripts": {
