@@ -5,6 +5,7 @@ version: 'v1.0.0'
 <a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodej">
 <img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs.svg?style=flat-square&label=master" />
 </a>
+
 ## Description
 
 For an interview, i was asked to dev this game with thoses users story:
