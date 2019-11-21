@@ -5,5 +5,5 @@
         "**/.nyc_output": true,
         "**/coverage": true
     },
-    "editor.wordWrapColumn": 100
+    "editor.wordWrapColumn": 120
 }
