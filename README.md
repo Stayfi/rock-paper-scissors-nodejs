@@ -1,13 +1,9 @@
 # Rock, Paper, Scissors & Lizard, Spock (Node.js)
 
-version: 'v1.0.5'
+version: 'v1.0.6'
 
-<a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodejs">
-<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/master.svg?style=flat-square&label=master" />
-</a> 
-<a href="https://travis-ci.org/Stayfi/rock-paper-scissors-nodejs">
-<img src="https://img.shields.io/travis/Stayfi/rock-paper-scissors-nodejs/develop.svg?style=flat-square&label=develop" />
-</a>
+[![Build Status](https://travis-ci.org/Stayfi/rock-paper-scissors-nodejs.svg?branch=master)](https://travis-ci.org/Stayfi/rock-paper-scissors-nodejs)
+[![Coverage Status](https://coveralls.io/repos/github/Stayfi/rock-paper-scissors-nodejs/badge.svg?branch=develop)](https://coveralls.io/github/Stayfi/rock-paper-scissors-nodejs?branch=develop)
 
 ## Description
 
